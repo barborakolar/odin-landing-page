@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+.header {
+    background-color: #1f2937;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.headline {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.image {
+    background-color: grey;
+    font-size: 18px;
+    color: #e5e7eb;  
+}
+
+.subheadline {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.description {
+    font-size: 18px;
+    color: #1f2937;
+}
+
+.quotes {
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-style: italic;
+    font-weight: 100;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.author {
+    font-size: 16px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.sign {
+    background-color: #3882f6;
+    font-size: 14px;
+    color: #f9faf8;
+}
+
+.call {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 700;
+}
