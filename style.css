@@ -8,6 +8,7 @@ body {
 
 .header {
     background-color: #1f2937;
+    padding: 18px 48px 48px 48px;
 }
 
 .logo {
@@ -43,6 +44,10 @@ a {
     color: #e5e7eb;  
 }
 
+.information {
+    padding: 48px;
+    
+}
 .subheadline {
     color: #1f2937;
     font-size: 36px;
@@ -56,6 +61,7 @@ a {
 
 .quotes {
     background-color: #e5e7eb;
+    padding: 96px;
 }
 
 .quote {
@@ -75,6 +81,8 @@ a {
     background-color: #3882f6;
     font-size: 14px;
     color: #f9faf8;
+    padding: 48px;
+    margin: 100px 200px;
 }
 
 .call {
@@ -88,6 +96,8 @@ a {
     background-color: #1f2937;
     color: #e5e7eb;
     font-size: 18px;
+    padding: 48px;
+    text-align: center;
 }
 
 button {
