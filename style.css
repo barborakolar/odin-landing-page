@@ -11,6 +11,11 @@ body {
     padding: 18px 48px 48px 48px;
 }
 
+.top-line {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
 .logo {
     font-size: 24px;
     font-weight: 900;
@@ -19,12 +24,18 @@ body {
 
 ul {
     list-style: none;
+    display: flex;
+    gap: 18px;
 }
 
 a {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.bottom-line {
+    display: flex;
 }
 
 .headline {
@@ -41,7 +52,10 @@ a {
 .image {
     background-color: grey;
     font-size: 18px;
-    color: #e5e7eb;  
+    color: #e5e7eb;
+    display: flex;
+    align-items: center;  
+    text-align: center;
 }
 
 .information {
@@ -52,8 +66,15 @@ a {
     color: #1f2937;
     font-size: 36px;
     font-weight: 900;
+    padding-bottom: 18px;
+    text-align: center;
 }
 
+.illustrations {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
 .description {
     font-size: 18px;
     color: #1f2937;
@@ -75,6 +96,8 @@ a {
     font-size: 16px;
     font-weight: bold;
     color: #1f2937;
+    text-align: right;
+    padding: 18px;
 }
 
 .sign {
@@ -83,14 +106,14 @@ a {
     color: #f9faf8;
     padding: 48px;
     margin: 100px 200px;
+    display: flex;
+    gap: 18px;
 }
 
 .call {
     font-size: 18px;
     font-weight: 700;
 }
-
-
 
 .footer {
     background-color: #1f2937;
@@ -105,4 +128,5 @@ button {
     color: #f9faf8;
     font-size: 18px;
     font-weight: 700;
+    flex-shrink: 0;
 }
