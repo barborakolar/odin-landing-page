@@ -8,7 +8,7 @@ body {
 
 .header {
     background-color: #1f2937;
-    padding: 18px 48px 48px 48px;
+    padding: 18px 300px 100px 300px;
 }
 
 .top-line {
@@ -36,17 +36,22 @@ a {
 
 .bottom-line {
     display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    gap: 100px;
 }
 
 .headline {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
+    padding-bottom: 12px;
 }
 
 .text {
     font-size: 18px;
     color: #e5e7eb;
+    padding-bottom: 12px;
 }
 
 .image {
@@ -56,6 +61,8 @@ a {
     display: flex;
     align-items: center;  
     text-align: center;
+    padding: 100px 200px;
+    
 }
 
 .information {
@@ -66,23 +73,36 @@ a {
     color: #1f2937;
     font-size: 36px;
     font-weight: 900;
-    padding-bottom: 18px;
+    padding-bottom: 24px;
     text-align: center;
 }
 
 .illustrations {
     display: flex;
-    flex: 1;
     justify-content: space-between;
+    gap: 16px;
+    padding: 0px 200px;
+}
+
+.box {
+    border-color: #3882f6;
+    border-style: solid;
+    border-width: 6px;
+    border-radius: 24px;
+    margin-bottom: 24px;
+    width: 200px;
+    height: 200px;
+    
 }
 .description {
     font-size: 18px;
     color: #1f2937;
+    max-width: 200px;
 }
 
 .quotes {
     background-color: #e5e7eb;
-    padding: 96px;
+    padding: 100px 400px;
 }
 
 .quote {
@@ -104,10 +124,13 @@ a {
     background-color: #3882f6;
     font-size: 14px;
     color: #f9faf8;
-    padding: 48px;
-    margin: 100px 200px;
+    padding: 48px 100px;
+    border-radius: 12px;
+    border-color: #3882f6;
+    margin: 100px 300px;
     display: flex;
     gap: 18px;
+    justify-content: space-between;
 }
 
 .call {
@@ -129,4 +152,8 @@ button {
     font-size: 18px;
     font-weight: 700;
     flex-shrink: 0;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #e5e7eb;
+    padding: 12px;
 }
